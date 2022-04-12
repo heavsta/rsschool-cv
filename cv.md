@@ -2,15 +2,15 @@
 
 ## Contact
 
-GitHub: [https://github.com/heavsta](https://github.com/heavsta)
-Linkedin: [https://www.linkedin.com/in/francois-leduc/](https://www.linkedin.com/in/francois-leduc/)
-Discord: heavsta#0949
-E-mail: francoisleduc[at]ymail[dot]com
-Phone: +33 6 51 78 86 47
+GitHub: [https://github.com/heavsta](https://github.com/heavsta)  
+Linkedin: [https://www.linkedin.com/in/francois-leduc/](https://www.linkedin.com/in/francois-leduc/)  
+Discord: heavsta#0949  
+E-mail: francoisleduc[at]ymail[dot]com  
+Phone: +33 6 51 78 86 47  
 
 ## Summary
 
-I stepped into the world of programming during the first covid lockdown. As I was stuck in my appartment I decided to give a try to something I never dared starting seriously. I taught myself the basics of web development grabbing lectures and courses here and there on the web and landed my first job in less than a year.
+I stepped into the world of programming during the first covid lockdown. As I was stuck in my appartment I decided to give a try to something I never dared starting seriously. I taught myself the basics of web development grabbing lectures and courses here and there on the web and landed my first job in less than a year.  
 I have the will to deepen my knowledge in both front and back end, as I find of each of them differently interesting. I am looking forward to join an IT company where I could blossom at my job, actively participating, sharing, creating and solving issues within a motivated team.
 
 ## Skills
@@ -55,7 +55,7 @@ Mainly built websites with Drupal, also worked in team on some Angular & Symfony
 Some of my personal projects:
 - [Chatrooms](https://github.com/heavsta/chatrooms): A chatroom service built with Django and WebSocket.
 - [Commerce](https://github.com/heavsta/commerce): An eBay-like e-commerce auction site written with Django.
--  [The Flasky Blog](https://github.com/heavsta/flasky-blog): A simple blog built with Flask.
+- [The Flasky Blog](https://github.com/heavsta/flasky-blog): A simple blog built with Flask.
 
 ## Education
 
@@ -69,8 +69,8 @@ Some of my personal projects:
 
 I'm a language enthusiast, aka language nerd, aka linguaphile.
 
-French: Native
-English: Advanced (B2-C1)
-Italian: Advanced (CILS B2 - 2020)
-German: Intermediate
-Russian: Basic
+French: Native  
+English: Advanced (B2-C1)  
+Italian: Advanced (CILS B2 - 2020)  
+German: Intermediate  
+Russian: Basic  
