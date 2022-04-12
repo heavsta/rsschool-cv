@@ -49,7 +49,7 @@ func Swap(sli []int, i int) {
 
 ## Experience
 
-2021 - Web Developper in a french communication agency
+2021 - **Web Developer** in a french communication agency  
 Mainly built websites with Drupal, also worked in team on some Angular & Symfony projects.
 
 Some of my personal projects:
@@ -62,15 +62,17 @@ Some of my personal projects:
 - HarvardX: [Professional Certificate: Computer Science for Web Programming](https://credentials.edx.org/credentials/c0084c2f9f284a529d40070368e55f8a/)
     - CS50W: [Web Programming with Python and JavaScript](https://courses.edx.org/certificates/6375f8c309f94ef8a9ac4ef627ca88a7)
     - CS50x: [Introduction to Computer Science](https://courses.edx.org/certificates/14244e48c6d84f858531347ccaab416a)
+
 - Udacity: [Front-End Web Developer Nanodegree Program](https://courses.edx.org/certificates/6375f8c309f94ef8a9ac4ef627ca88a7)
+
 - Coursera: [Programming with Google Go](coursera.org/verify/specialization/H2RVKVJK5K3P)
 
 ## Languages
 
 I'm a language enthusiast, aka language nerd, aka linguaphile.
 
-French: Native  
-English: Advanced (B2-C1)  
-Italian: Advanced (CILS B2 - 2020)  
-German: Intermediate  
-Russian: Basic  
+**French:** Native  
+**English:** Advanced (B2-C1)  
+**Italian:** Advanced (CILS B2 - 2020)  
+**German:** Intermediate  
+**Russian:** Basic  
