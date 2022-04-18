@@ -28,7 +28,7 @@ ul.no-bullet li {
 }
 
 code {
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 code .comment {
@@ -57,7 +57,8 @@ svg {
 **/
 
 header h1 {
-    padding: 0 10px;
+    width: 1150px;
+    margin: 10vh auto 2vh auto;
 }
 
 
@@ -153,8 +154,8 @@ aside .portrait img {
     display: block;
 }
 
-.article #code-example p, #code-example h2 {
-    margin: 0;
+.article #code-example p {
+    margin-bottom: 0;
 }
 
 .article #education ul {
