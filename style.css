@@ -114,7 +114,7 @@ aside .portrait img {
 }
 
 .article nav ul > li:hover::before,
-.article nav ul > li:focus::before .{
+.article nav ul > li:focus::before {
     opacity: 1;
     transform: translate3d(0, 0, 0);
 }
