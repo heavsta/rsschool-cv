@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>François Leduc</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>Wait & see...</header>
+
+    <main>
+        <aside class="sticky">
+            <h1>François Leduc</h1>
+            <div class="portrait">
+                <img src="img/portrait.jpg" alt="François Leduc">
+            </div>
+        </aside>
+
+        <article>
+            <nav>
+                <ul>
+                    <li class="link">
+                        Summary
+                    </li>
+                    <li class="link">
+                        Skills
+                    </li>
+                    <li class="link">
+                        Code-Example
+                    </li>
+                    <li class="link">
+                        Experience
+                    </li>
+                    <li class="link">
+                        Education
+                    </li>
+                    <li class="link">
+                        Contact
+                    </li>
+                </ul>
+            </nav>
+            
+            <section id="summary">
+                <p>I stepped into the world of programming during the first covid lockdown. As I was stuck in my appartment I decided to give a try to something I never dared starting seriously. I taught myself the basics of web development grabbing lectures and courses here and there on the web and landed my first job in less than a year.
+                <br>
+                I have the will to deepen my knowledge in both front and back end, as I find of each of them differently interesting. I am looking forward to join an IT company where I could blossom at my job, actively participating, sharing, creating and solving issues within a motivated team.</p>
+            </section>
+
+            <section id="skills">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS, SASS, Bootstrap, Bulma</li>
+                    <li>JS (on-the-ground knowledge of Angular)</li>
+                    <li>Python (Django, Flask)</li>
+                    <li>Git, GitHub</li>
+                    <li>Drupal (CMS)</li>
+                    <li>Figma</li>
+                </ul>
+            </section>
+
+            <section id="code-example">
+                <p>I’ve been recently very interested in Go so here’s a code snippet:</p>
+                <pre>
+                    <code class="code">
+                        <span class="comment">// Bubble Sorting Algorithm in Go</span>
+
+                        <span class="key-word">func</span> BubbleSort(sli []<span class="type">int</span>) {
+                            l := <span class="key-word">len</span>(sli)
+                        
+                            <span class="key-word">for</span> i := <span class="key-word">range</span> sli[:l] {
+                                <span class="key-word">for</span> j := <span class="key-word">range</span> sli[:l-i-1] {
+                                    <span class="key-word">if</span> sli[j] > sli[j+1] {
+                                        Swap(sli, j)
+                                    }
+                                }
+                            }
+                        }
+                        
+                        <span class="key-word">func</span> Swap(sli []<span class="type">int</span>, i <span class="type">int</span>) {
+                            sli[i], sli[i+1] = sli[i+1], sli[i]
+                        }                       
+                    </code>
+                </pre>
+            </section>
+            
+            <section id="experience">
+                <p>2021 - Web Developer in a french communication agency<br>Mainly built websites with Drupal, also worked in team on some Angular & Symfony projects.</p>
+                <p>Some of my personal projects:</p>
+                <ul>
+                    <li>
+                        <a href="https://github.com/heavsta/chatrooms">Chatrooms: </a>A chatroom service built with Django and WebSocket.
+                    </li>
+                    <li>
+                        <a href="https://github.com/heavsta/commerce">Commerce: </a>An eBay-like e-commerce auction site written with Django.
+                    </li>
+                    <li>
+                        <a href="https://github.com/heavsta/flasky-blog">The Flasky Blog: </a>A simple blog built with Flask.
+                    </li>
+                </ul>
+            </section>
+
+            <section id="education">
+                <ul>
+                    <li>
+                        HarvardX: <a href="https://credentials.edx.org/credentials/c0084c2f9f284a529d40070368e55f8a/" target="_blank">Professional Certificate: Computer Science for Web Programming</a>
+                        <ul>
+                            <li>
+                                CS50W: <a href="https://courses.edx.org/certificates/6375f8c309f94ef8a9ac4ef627ca88a7" target="_blank">Web Programming with Python and JavaScript</a>
+                            </li>
+                            <li>
+                                CS50x: <a href="https://courses.edx.org/certificates/14244e48c6d84f858531347ccaab416a" target="_blank">Introduction to Computer Science</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Udacity: <a href="https://courses.edx.org/certificates/6375f8c309f94ef8a9ac4ef627ca88a7" target="_blank">Front-End Web Developer Nanodegree Program</a>
+                    </li>
+                    <li>
+                        Coursera: <a href="https://coursera.org/verify/specialization/H2RVKVJK5K3P" target="_blank">Programming with Google Go</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <p>GitHub: <a href="https://github.com/heavsta">https://github.com/heavsta</a></p>
+                <p>Linkedin: <a href="https://www.linkedin.com/in/francois-leduc/">https://www.linkedin.com/in/francois-leduc/</a></p>
+                <p>Discord: heavsta#0949</p>
+                <p>E-mail: francoisleduc[at]ymail[dot]com</p>
+                <p>Phone: +33 6 51 78 86 47</p>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://github.com/heavsta" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                </a>
+            </li>
+            <li>
+                &copy; April 2022<br>heavsta
+            </li>
+            <li>
+                <a href="https://rs.school/" target="_blank">
+                    <img src="https://rs.school/images/rs_school_js.svg" alt="RS School logo" width="90" height="30">
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
