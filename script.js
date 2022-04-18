@@ -18,3 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     }
 })
+
+// Canceling initial animation delay
+setTimeout(function(){
+    const sections = document.querySelectorAll('section')
+    for(let section of sections) {
+        section.style.animationDelay = 'unset'
+    }
+}, 2000);

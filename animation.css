@@ -1,0 +1,128 @@
+/* KEYFRAMES */
+
+@keyframes bounceIn {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes picImage {
+    from {
+        opacity: 0;
+        transform: scale(1.2) translateY(-1rem);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* NAMING */
+
+h1 {
+    animation-duration: 1000ms;
+    animation-name: slideDown;
+    animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+    animation-fill-mode: both;
+}
+
+.portrait img, aside h2 {
+    animation-duration: 1000ms;
+    animation-name: picImage;
+    animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+    animation-fill-mode: both;
+}
+
+.article nav ul > li {
+    animation-duration: 1000ms;
+    animation-name: bounceIn;
+    animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+    animation-fill-mode: both;
+}
+
+.article section {
+    animation-duration: 700ms;
+    animation-name: slideUp;
+    animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+    animation-fill-mode: both;
+}
+
+footer li {
+    animation-duration: 500ms;
+    animation-name: slideUp;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1.5);
+    animation-fill-mode: both;
+}
+
+/* DELAY */
+
+.portrait img, aside h2 {
+    animation-delay: 400ms
+}
+
+.article nav ul > li:nth-child(1) {
+    animation-delay: 700ms;
+}
+
+.article nav ul > li:nth-child(2) {
+    animation-delay: 800ms;
+}
+
+.article nav ul > li:nth-child(3) {
+    animation-delay: 900ms;
+}   
+
+.article nav ul > li:nth-child(4) {
+    animation-delay: 1000ms;
+}
+
+.article nav ul > li:nth-child(5) {
+    animation-delay: 1100ms;
+}
+
+.article nav ul > li:nth-child(6) {
+    animation-delay: 1200ms;
+}
+
+.article section {
+    animation-delay: 1400ms
+}
+
+footer li:nth-child(1) {
+    animation-delay: 2000ms;
+}
+
+footer li:nth-child(2) {
+    animation-delay: 2200ms;
+}
+
+footer li:nth-child(3) {
+    animation-delay: 2400ms;
+}
