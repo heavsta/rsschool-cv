@@ -80,16 +80,16 @@ aside .portrait img {
     object-fit: cover;
 }
 
-article {
+.article {
     margin: 7px 20px;
     padding: 0 0 0 50px;
 }
 
-article nav ul {
+.article nav ul {
     padding-left: 0;
 }
 
-article nav ul > li {
+.article nav ul > li {
     display: inline-block;
     font-family: "Montserrat", sans-serif;
     font-size: 1.25rem;
@@ -100,7 +100,7 @@ article nav ul > li {
     user-select: none;
 }
 
-article nav ul > li::before {
+.article nav ul > li::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -113,13 +113,13 @@ article nav ul > li::before {
     transform: translate3d(-100%, 0, 0);
 }
 
-article nav ul > li:hover::before,
-article nav ul > li:focus::before {
+.article nav ul > li:hover::before,
+.article nav ul > li:focus::before .{
     opacity: 1;
     transform: translate3d(0, 0, 0);
 }
 
-article nav ul > li.active::after {
+.article nav ul > li.active::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -129,37 +129,37 @@ article nav ul > li.active::after {
     background-color: black;
 }
 
-article section {
+.article section {
     display: none;
     max-width: 620px;
     padding: 0;
 }
 
-article section h2 {
+.article section h2 {
     margin: 0;
 }
 
-article section li {
+.article section li {
     line-height: 2rem;
 }
 
-article #summary {
+.article #summary {
     display: block;
 }
 
-article #code-example p, #code-example h2 {
+.article #code-example p, #code-example h2 {
     margin: 0;
 }
 
-article #education ul {
+.article #education ul {
     margin-top: 0;
 }
 
-article #education img {
+.article #education img {
     padding-right: 5px;
 }
 
-article #contact li {
+.article #contact li {
     line-height: 2.5rem;
 }
 
