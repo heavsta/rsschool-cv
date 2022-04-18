@@ -1,5 +1,10 @@
+/**
+** Shared
+**/
+
 body {
     height: 100vh;
+    background-color: #efebe0;
     margin: 0;
     font-family: "Quicksand", sans-serif;
     display: flex;
@@ -11,19 +16,48 @@ h1, h2 {
     font-family: "Montserrat", sans-serif;
 }
 
-ul {
-    padding: 0;
+ul.no-bullet {
+    list-style-type: none;
 }
 
-.code .comment {
+ul.no-bullet li {
+    display: flex;
+    align-items: center;
+}
+
+code {
+    font-size: 0.9rem;
+}
+
+code .comment {
     color: #A3A495;
 }
-.code .key-word {
+
+code .key-word {
     font-weight: bold;
 }
-.code .type {
+
+code .type {
     color: #445588;
 }
+
+pre {
+    margin: 0;
+}
+
+svg {
+    padding-right: 5px;
+}
+
+
+/**
+** Header
+**/
+
+header h1 {
+    padding: 0 10px;
+}
+
 
 /**
 ** Main
@@ -32,7 +66,7 @@ ul {
 main {
     display: flex;
     justify-content: start;
-    width: 1200px;
+    width: 1100px;
     margin: 0 auto;
 }
 
@@ -48,13 +82,18 @@ aside .portrait img {
 
 article {
     margin: 7px 20px;
+    padding: 0 0 0 50px;
+}
+
+article nav ul {
+    padding-left: 0;
 }
 
 article nav ul > li {
     display: inline-block;
     font-family: "Montserrat", sans-serif;
     font-size: 1.25rem;
-    margin-right: 8px;
+    margin-right: 15px;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -80,22 +119,57 @@ article nav ul > li:focus::before {
     transform: translate3d(0, 0, 0);
 }
 
+article nav ul > li.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: black;
+}
+
 article section {
     display: none;
-    max-width: 600px;
-    padding: 5px 50px;
+    max-width: 620px;
+    padding: 0;
+}
+
+article section h2 {
+    margin: 0;
+}
+
+article section li {
+    line-height: 2rem;
 }
 
 article #summary {
     display: block;
 }
 
+article #code-example p, #code-example h2 {
+    margin: 0;
+}
+
+article #education ul {
+    margin-top: 0;
+}
+
+article #education img {
+    padding-right: 5px;
+}
+
+article #contact li {
+    line-height: 2.5rem;
+}
+
+
 /**
 ** Footer
 **/
 
 footer {
-    background-color: darkgrey;
+    background-color: #d8d2c2;
     text-align: center;
     font-size: 0.8rem;
     line-height: 0.9rem;

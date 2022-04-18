@@ -4,6 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     for (let link of links) {
         link.addEventListener('click', e => {
+            for (let link of links) {
+                link.classList.remove('active')
+            }
+            link.classList.add('active')
             document.getElementById(previous).style.display = 'none'
 
             sectionName = e.target.innerText.toLowerCase()
