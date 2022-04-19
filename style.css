@@ -211,6 +211,12 @@ footer a:hover {
 ** Media Queries
 **/
 
+@media only screen and (max-width: 1300px) {
+    header h1 {
+        margin: 4vh auto 2vh auto;
+    }
+}
+
 @media only screen and (max-width: 1150px) {
     body {
         overflow-y: unset;
