@@ -211,9 +211,27 @@ footer a:hover {
 ** Media Queries
 **/
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1300px) and (max-height: 640px) {
     header h1 {
         margin: 4vh auto 2vh auto;
+    }
+}
+
+@media only screen and (max-width: 1300px) and (max-height: 600px) {
+    header h1 {
+        margin: 0 auto 2vh auto;
+    }
+
+    aside h2 {
+        margin-top: 0;
+    }
+
+    .article nav ul {
+        margin-top: 0;
+    }
+
+    p, li {
+        font-size: 0.9rem;
     }
 }
 
