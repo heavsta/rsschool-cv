@@ -11,7 +11,7 @@ Phone: +33 6 51 78 86 47
 ## Summary
 
 I stepped into the world of programming during the first covid lockdown. As I was stuck in my appartment I decided to give a try to something I never dared starting seriously. I taught myself the basics of web development grabbing lectures and courses here and there on the web and landed my first job in less than a year.  
-I have the will to deepen my knowledge in both front and back end, as I find of each of them differently interesting. I am looking forward to join an IT company where I could blossom at my job, actively participating, sharing, creating and solving issues within a motivated team.
+I have the will to deepen my knowledge in both front and back end, as I find each of them differently interesting. I am looking forward to join an IT company where I could blossom at my job, actively participating, sharing, creating and solving issues within a motivated team.
 
 ## Skills
 
@@ -63,7 +63,7 @@ Some of my personal projects:
     - CS50W: [Web Programming with Python and JavaScript](https://courses.edx.org/certificates/6375f8c309f94ef8a9ac4ef627ca88a7)
     - CS50x: [Introduction to Computer Science](https://courses.edx.org/certificates/14244e48c6d84f858531347ccaab416a)
 
-- Udacity: [Front-End Web Developer Nanodegree Program](https://courses.edx.org/certificates/6375f8c309f94ef8a9ac4ef627ca88a7)
+- Udacity: [Front-End Web Developer Nanodegree Program](https://graduation.udacity.com/confirm/C55TQXKZ)
 
 - Coursera: [Programming with Google Go](coursera.org/verify/specialization/H2RVKVJK5K3P)
 
